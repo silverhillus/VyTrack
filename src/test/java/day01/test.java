@@ -9,5 +9,6 @@ public class test {
         System.out.println(name);
         System.out.println(name+" yavuz");
         System.out.println("dasd");
+        System.out.println("dasdasdasda"+name);
     }
 }
