@@ -1,10 +1,14 @@
 package day01;
 
 
+import org.testng.annotations.Test;
+
 public class test {
     public String str = "ahmet serdar yavuz";
-    String name = "ahmet"
+    public static String name = "ahmet";
+
     public static void main(String[] args) {
+
 
         System.out.println("hello hello world");
         System.out.println("hello hello world");
@@ -15,12 +19,18 @@ public class test {
 
 
     }
-    class {
-        public String str = "ahmet serdar yavuz";
-        int num =0;
-        int a =0;
-        System.out.println();
-        System.out.println(str);
-        System.out.println("dasdasdasdasd");
+
+    class ahmetAbi {
+
+        @Test
+        public void myMethod() {
+             String str = "ahmet serdar yavuz";
+            int num = 0;
+            int a = 0;
+            System.out.println();
+            System.out.println(str);
+            System.out.println("dasdasdasdasd");
+        }
+
     }
 }
