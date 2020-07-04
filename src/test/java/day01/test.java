@@ -12,5 +12,6 @@ public class test {
     }
     class {
         int num =0;
+        int a =0;
     }
 }
