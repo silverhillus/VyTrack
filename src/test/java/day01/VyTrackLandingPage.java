@@ -6,7 +6,7 @@ public class VyTrackLandingPage {
 
 
     @Test
-    public void setUp(){
+    public void setUp() {
 
         System.out.println("WebDriver should be here");
 
@@ -14,7 +14,7 @@ public class VyTrackLandingPage {
     }
 
     @Test
-    public void setUpTo(){
+    public void setUpTo() {
 
         System.out.println("WebDriver should be here");
 
@@ -22,6 +22,13 @@ public class VyTrackLandingPage {
     }
 
 
+    @Test
+    public void tearDown() {
+
+        System.out.println("WebDriver should be here");
+
+
+    }
 
 
 }
