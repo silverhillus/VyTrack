@@ -8,5 +8,9 @@ public class test {
         System.out.println("this is a test in branch coder");
         System.out.println(name);
 
+
+    }
+    class {
+        int num =0;
     }
 }
